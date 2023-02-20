@@ -5,18 +5,12 @@ using CodeMonkey.Utils;
 
 public class DrawMesh : MonoBehaviour
 {
-
-
     [SerializeField] private Transform debugVisual1;
     [SerializeField] private Transform debugVisual2;
     public GameObject parent;
 
     private Mesh mesh;
     private Vector3 lastMousePosition;
-
-    private void Awake()
-    {
-    }
 
     private void Update()
     {
@@ -123,8 +117,13 @@ public class DrawMesh : MonoBehaviour
                 mesh.triangles = triangles;
 
                 lastMousePosition = UtilsClass.GetMouseWorldPosition();
-            }
+            }    
         }
+    }
+
+    public void Clear()
+    {
+        Destroy(mesh);
     }
 
 }
