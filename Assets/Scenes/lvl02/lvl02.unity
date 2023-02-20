@@ -4405,7 +4405,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &514328247
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15621,6 +15621,7 @@ MonoBehaviour:
   phoneAlarm: {fileID: 0}
   phone: {fileID: 0}
   alarm: {fileID: 0}
+  app: {fileID: 0}
   blockAnsBTN: {fileID: 0}
 --- !u!4 &1728563285
 Transform:

@@ -12,7 +12,6 @@ public class ButtonScript : MonoBehaviour
     public GameObject app;
 
     [Header("Buttons")]
-    public GameObject blockAnsBTN;
     float currentTime = 0f;
     float startingTime = 110f;
 
@@ -22,12 +21,10 @@ public class ButtonScript : MonoBehaviour
     {
         currentTime = startingTime;
         Time.timeScale = 1;
-        blockAnsBTN.SetActive(false);
     }
     private void Update()
     {
         currentTime -= 1 * Time.deltaTime;
-        BlockAns();
     }
 
     //Actual load on play button
@@ -77,11 +74,5 @@ public class ButtonScript : MonoBehaviour
         Time.timeScale = 1;
         settingView.SetActive(!settingView.activeSelf);
     }
-    public void BlockAns()
-    {
-        if (currentTime <= 0)
-        {
-            blockAnsBTN.SetActive(true);
-        }
-    }
+
 }

@@ -1474,7 +1474,7 @@ GameObject:
   - component: {fileID: 954569501}
   - component: {fileID: 954569500}
   m_Layer: 5
-  m_Name: Background_SelectPanell
+  m_Name: levelSelect
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2442,11 +2442,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e07da52d51b04442a68b5b1f85f82cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelsPanel: {fileID: 1079879603}
   phoneAlarm: {fileID: 0}
   phone: {fileID: 0}
   alarm: {fileID: 0}
-  blockAnsBTN: {fileID: 0}
+  app: {fileID: 0}
 --- !u!4 &1936451766
 Transform:
   m_ObjectHideFlags: 0
