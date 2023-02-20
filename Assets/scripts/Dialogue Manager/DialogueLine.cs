@@ -42,7 +42,7 @@ namespace DialogueSystem
         {
             if (textDisplay.text == sentences[index])
             {
-                continueButton.SetActive(false);
+                continueButton.SetActive(true);
             }
             if (isLevelOne == true)
                 OpenPhone();
@@ -91,7 +91,7 @@ namespace DialogueSystem
         }
         public void OpenPhone()
         {
-            if (index >= 14)
+            if (index >= 15)
             {
                 Time.timeScale = 1;
                 phone.SetActive(true);
@@ -113,6 +113,7 @@ namespace DialogueSystem
 
             if (index < sentences.Length - 1)
             {
+                continueButton.SetActive(false);
                 index++;
                 textDisplay.text = "";
                 StartCoroutine(Type(6));
