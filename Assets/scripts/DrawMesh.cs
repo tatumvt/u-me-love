@@ -119,11 +119,15 @@ public class DrawMesh : MonoBehaviour
                 lastMousePosition = UtilsClass.GetMouseWorldPosition();
             }    
         }
+/*        if (mesh == null)
+        {
+            Destroy(gameObject);
+        }*/
     }
 
-    public void Clear()
+    public void ClearNotes()
     {
-        Destroy(mesh);
+        mesh.Clear();
     }
 
 }
