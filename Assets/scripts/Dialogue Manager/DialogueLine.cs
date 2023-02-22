@@ -44,6 +44,7 @@ namespace DialogueSystem
             {
                 continueButton.SetActive(true);
             }
+            //level specific checks
             if (isLevelOne == true)
                 OpenPhone();
             if (isLevelAnswer == true)
@@ -56,6 +57,7 @@ namespace DialogueSystem
             if (isLevelTwoAnswer == true)
                 StopPicnic();
         }
+        #region canvas switches 
         public void StopPicnic()
         {
             if (index >= 8)
@@ -86,7 +88,7 @@ namespace DialogueSystem
             if (index >= 9)
             {
                 Time.timeScale = 1;
-                kitchen.SetActive(true);
+                kitchen.SetActive(false);
             }
         }
         public void OpenPhone()
@@ -97,6 +99,8 @@ namespace DialogueSystem
                 phone.SetActive(true);
             }
         }
+        #endregion
+
         protected IEnumerator Type(float waitTime)
         {
                 foreach (char letter in sentences[index].ToCharArray())
@@ -111,7 +115,7 @@ namespace DialogueSystem
         {
             continueButton.SetActive(true);
 
-            if (index < sentences.Length - 1)
+            if (index <= sentences.Length )
             {
                 continueButton.SetActive(false);
                 index++;

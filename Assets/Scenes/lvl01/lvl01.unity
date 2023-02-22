@@ -11037,7 +11037,6 @@ MonoBehaviour:
   phone: {fileID: 301554712}
   alarm: {fileID: 679154013}
   app: {fileID: 1400166545}
-  blockAnsBTN: {fileID: 1312430065}
 --- !u!4 &1728563285
 Transform:
   m_ObjectHideFlags: 0
@@ -14350,7 +14349,7 @@ PrefabInstance:
     - target: {fileID: 2358729442843543113, guid: 41cbf8afa02693348b6b03099066c903,
         type: 3}
       propertyPath: sentences.Array.data[14]
-      value: I should tell mom when I'll leave
+      value: Oh! I should probably tell mom when I'll leave
       objectReference: {fileID: 0}
     - target: {fileID: 2358729442843543113, guid: 41cbf8afa02693348b6b03099066c903,
         type: 3}
