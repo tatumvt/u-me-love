@@ -14630,6 +14630,7 @@ MonoBehaviour:
   - {fileID: 1776813959}
   - {fileID: 290353956}
   - {fileID: 757667563}
+  theScores: 
 --- !u!1 &1577143265
 GameObject:
   m_ObjectHideFlags: 0
@@ -14711,10 +14712,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1728563284}
-        m_TargetAssemblyTypeName: ButtonScript, Assembly-CSharp
-        m_MethodName: LoadSceneScript
-        m_Mode: 5
+      - m_Target: {fileID: 1576160208}
+        m_TargetAssemblyTypeName: amountManager, Assembly-CSharp
+        m_MethodName: answerCheck
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
