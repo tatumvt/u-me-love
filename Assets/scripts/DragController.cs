@@ -13,6 +13,7 @@ public class DragController : MonoBehaviour, IPointerDownHandler, IBeginDragHand
     private bool spawned = false;
 
     Bowl bowl;
+    public bool isInBowl = false;
 
     private void Awake()
     {
@@ -48,5 +49,4 @@ public class DragController : MonoBehaviour, IPointerDownHandler, IBeginDragHand
     {
 
     }
-
 }

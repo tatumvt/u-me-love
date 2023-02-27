@@ -51,7 +51,6 @@ public class ButtonScript : MonoBehaviour
     {
         Time.timeScale = 1;
         alarm.Stop();
-        //phoneAlarm.SetActive(false);
         Destroy(GameObject.Find("phoneAlarm"));
     }
     public void BackToHome(GameObject app)
@@ -65,8 +64,6 @@ public class ButtonScript : MonoBehaviour
         Time.timeScale = 1;
         app.SetActive(false);
         messages.SetActive(false);
-
-        //phone.SetActive(true);
     }
     //Toggles Settings menu
     public void SettingsToggle(GameObject settingView)

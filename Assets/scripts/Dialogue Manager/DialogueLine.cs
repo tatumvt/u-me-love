@@ -41,9 +41,8 @@ namespace DialogueSystem
         private void Update()
         {
             if (textDisplay.text == sentences[index])
-            {
                 continueButton.SetActive(true);
-            }
+           
             //level specific checks
             if (isLevelOne == true)
                 OpenPhone();
@@ -123,9 +122,7 @@ namespace DialogueSystem
                 StartCoroutine(Type(6));
             }
             else
-            {
                 textDisplay.text = "";
-            }
         }
     }
 

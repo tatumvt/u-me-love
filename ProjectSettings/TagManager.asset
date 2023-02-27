@@ -15,6 +15,7 @@ TagManager:
   - milkTen
   - milkFive
   - Drawable
+  - trash
   layers:
   - Default
   - TransparentFX
@@ -27,7 +28,7 @@ TagManager:
   - Lighting
   - Ground
   - Postprocessing
-  - 
+  - bowl
   - 
   - 
   - 

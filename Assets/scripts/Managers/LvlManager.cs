@@ -12,9 +12,7 @@ public class LvlManager : MonoBehaviour
     {
         debug1 = PlayerPrefs.GetInt("Lvl01");
         if(debug1 == 0)
-        {
             PlayerPrefs.SetInt("Lvl01", 1);
-        }
     }
     private void Update()
     {
