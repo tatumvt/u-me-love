@@ -6,7 +6,6 @@ using UnityEngine.EventSystems;
 public class Bowl : MonoBehaviour, IDropHandler //IEndDragHandler
 {
     public amountManager ss;
-    public ingredientSpawn ingredientS;
     public GameObject currentGameObject;
 
     [Header("Amounts")]
@@ -53,4 +52,5 @@ public class Bowl : MonoBehaviour, IDropHandler //IEndDragHandler
     {
         Drop();
     }
+
 }

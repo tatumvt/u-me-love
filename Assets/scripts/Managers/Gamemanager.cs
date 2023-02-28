@@ -28,7 +28,7 @@ public class Gamemanager : MonoBehaviour
         while (true)
         {
             yield return new WaitForSeconds(waitTime);
-            continueButton.SetActive(true);
+            //continueButton.SetActive(true);
             //dialogueCanvas.SetActive(true);
             Destroy(GameObject.Find("sleep"));
             phoneCanvas.SetActive(true);

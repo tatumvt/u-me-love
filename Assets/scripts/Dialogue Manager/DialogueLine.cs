@@ -40,8 +40,8 @@ namespace DialogueSystem
 
         private void Update()
         {
-            if (textDisplay.text == sentences[index])
-                continueButton.SetActive(true);
+            //if (textDisplay.text == sentences[index])
+            //    continueButton.SetActive(true);
            
             //level specific checks
             if (isLevelOne == true)
@@ -102,17 +102,19 @@ namespace DialogueSystem
 
         protected IEnumerator Type(float waitTime)
         {
-                foreach (char letter in sentences[index].ToCharArray())
-                {
-                    textDisplay.text += letter;
-                    am.playTyping();
-                    yield return new WaitForSeconds(TypingSpeed);
-                    am.typing.Stop();
-                }
+            foreach (char letter in sentences[index].ToCharArray())
+            {
+                textDisplay.text += letter;
+                am.playTyping();
+                yield return new WaitForSeconds(TypingSpeed);
+                am.typing.Stop();
+            }
+            continueButton.SetActive(true);
+            //Debug.Log("continue");
         }
         public void NextSentence()
         {
-            continueButton.SetActive(true);
+            //continueButton.SetActive(true);
 
             if (index <= sentences.Length )
             {

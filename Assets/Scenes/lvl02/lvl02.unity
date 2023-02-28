@@ -597,7 +597,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &53538049
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1325,7 +1325,6 @@ MonoBehaviour:
   canvas: {fileID: 1029995479}
   objectToSpawn: {fileID: 2847897937042086742, guid: b6df4f9e77a91c64a98293809d199bea,
     type: 3}
-  isInBowl: 0
 --- !u!61 &122105131
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2202,7 +2201,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canvas: {fileID: 1029995479}
   objectToSpawn: {fileID: 0}
-  isInBowl: 0
 --- !u!4 &192485911
 Transform:
   m_ObjectHideFlags: 0
@@ -5367,7 +5365,6 @@ MonoBehaviour:
   canvas: {fileID: 1029995479}
   objectToSpawn: {fileID: 1589842653056367463, guid: 0e1199aea0a644645b83c50128621575,
     type: 3}
-  isInBowl: 0
 --- !u!61 &619578289
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5948,7 +5945,6 @@ MonoBehaviour:
   canvas: {fileID: 1029995479}
   objectToSpawn: {fileID: 8241227960475626957, guid: 4a86705d0c2817845963118e508df32a,
     type: 3}
-  isInBowl: 0
 --- !u!61 &678437492
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8040,7 +8036,6 @@ MonoBehaviour:
   canvas: {fileID: 1029995479}
   objectToSpawn: {fileID: 4697510056167863636, guid: e4728a36504d2b9449525c0512106b94,
     type: 3}
-  isInBowl: 0
 --- !u!61 &807198902
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11401,6 +11396,7 @@ GameObject:
   - component: {fileID: 1225574689}
   - component: {fileID: 1225574688}
   - component: {fileID: 1225574687}
+  - component: {fileID: 1225574691}
   m_Layer: 11
   m_Name: Bowl
   m_TagString: Untagged
@@ -11504,10 +11500,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ss: {fileID: 1576160208}
-  ingredientS: {fileID: 0}
   currentGameObject: {fileID: 0}
   theScoreTen: 1
   theScoreFive: 2
+--- !u!225 &1225574691
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1225574685}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 0
+  m_IgnoreParentGroups: 0
 --- !u!1 &1231748047
 GameObject:
   m_ObjectHideFlags: 0
@@ -12962,7 +12969,6 @@ MonoBehaviour:
   canvas: {fileID: 1029995479}
   objectToSpawn: {fileID: 319796839957726299, guid: ef97f35e8b7fbe14ea00848d9114a8a1,
     type: 3}
-  isInBowl: 0
 --- !u!61 &1384066775
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -16405,7 +16411,6 @@ MonoBehaviour:
   canvas: {fileID: 1029995479}
   objectToSpawn: {fileID: 997993707699504853, guid: c1ffb91d9e7a7324db381ac2c35664de,
     type: 3}
-  isInBowl: 0
 --- !u!1 &1850691455
 GameObject:
   m_ObjectHideFlags: 0
@@ -16565,7 +16570,6 @@ MonoBehaviour:
   canvas: {fileID: 1029995479}
   objectToSpawn: {fileID: 7227535871424959637, guid: 00839f0e79c34fe49807dd62adafe59e,
     type: 3}
-  isInBowl: 0
 --- !u!61 &1872801651
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -18483,7 +18487,6 @@ MonoBehaviour:
   canvas: {fileID: 1029995479}
   objectToSpawn: {fileID: 4674288412906173784, guid: aa27962bd4f79a4428b1615da58c8f3f,
     type: 3}
-  isInBowl: 0
 --- !u!61 &2052722584
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -19209,7 +19212,6 @@ MonoBehaviour:
   canvas: {fileID: 1029995479}
   objectToSpawn: {fileID: 706429074089020627, guid: 51831f3b5cf3852499d95d40029b4031,
     type: 3}
-  isInBowl: 0
 --- !u!61 &2138708979
 BoxCollider2D:
   m_ObjectHideFlags: 0
