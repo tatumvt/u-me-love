@@ -960,7 +960,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &142652016
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1991,7 +1991,6 @@ MonoBehaviour:
   replaycanvas: {fileID: 0}
   phoneCanvas: {fileID: 1017410063}
   dialogueCanvas: {fileID: 53538048}
-  continueButton: {fileID: 528915179}
   isTutorial: 1
 --- !u!4 &400773189
 Transform:
@@ -9240,7 +9239,7 @@ GameObject:
   - component: {fileID: 1421613846}
   - component: {fileID: 1421613845}
   m_Layer: 5
-  m_Name: Image
+  m_Name: text box
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11595,7 +11594,7 @@ GameObject:
   - component: {fileID: 1808567269}
   - component: {fileID: 1808567268}
   m_Layer: 5
-  m_Name: Image
+  m_Name: ov app
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

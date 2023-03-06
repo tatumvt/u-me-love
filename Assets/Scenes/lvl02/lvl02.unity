@@ -3879,9 +3879,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ignore: 1
   replaycanvas: {fileID: 0}
-  phoneCanvas: {fileID: 53538048}
+  phoneCanvas: {fileID: 0}
   dialogueCanvas: {fileID: 53538048}
-  isTutorial: 1
+  isTutorial: 0
 --- !u!4 &400773189
 Transform:
   m_ObjectHideFlags: 0
@@ -6452,6 +6452,11 @@ PrefabInstance:
     - target: {fileID: 2358729442843543113, guid: 41cbf8afa02693348b6b03099066c903,
         type: 3}
       propertyPath: sentences.Array.data[9]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2358729442843543113, guid: 41cbf8afa02693348b6b03099066c903,
+        type: 3}
+      propertyPath: school
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 2358729442843543114, guid: 41cbf8afa02693348b6b03099066c903,
@@ -11512,7 +11517,7 @@ CanvasGroup:
   m_Enabled: 1
   m_Alpha: 1
   m_Interactable: 1
-  m_BlocksRaycasts: 0
+  m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
 --- !u!1 &1231748047
 GameObject:

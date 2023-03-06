@@ -39,10 +39,7 @@ namespace DialogueSystem
         }
 
         private void Update()
-        {
-            //if (textDisplay.text == sentences[index])
-            //    continueButton.SetActive(true);
-           
+        {  
             //level specific checks
             if (isLevelOne == true)
                 OpenPhone();
@@ -87,7 +84,8 @@ namespace DialogueSystem
             if (index >= 9)
             {
                 Time.timeScale = 1;
-                kitchen.SetActive(false);
+                //kitchen.SetActive(false);
+                Destroy(kitchen);
             }
         }
         public void OpenPhone()
