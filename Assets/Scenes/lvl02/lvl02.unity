@@ -3879,8 +3879,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ignore: 1
   replaycanvas: {fileID: 0}
-  phoneCanvas: {fileID: 53538048}
-  dialogueCanvas: {fileID: 53538048}
+  phoneCanvas: {fileID: 0}
+  dialogueCanvas: {fileID: 0}
   isTutorial: 1
 --- !u!4 &400773189
 Transform:
@@ -9701,7 +9701,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1029995477
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9760,7 +9760,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 3
   m_TargetDisplay: 0
 --- !u!224 &1029995480
 RectTransform:
@@ -11512,7 +11512,7 @@ CanvasGroup:
   m_Enabled: 1
   m_Alpha: 1
   m_Interactable: 1
-  m_BlocksRaycasts: 0
+  m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
 --- !u!1 &1231748047
 GameObject:
