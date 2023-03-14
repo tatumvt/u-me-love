@@ -87,7 +87,8 @@ namespace DialogueSystem
             if (index >= 9)
             {
                 Time.timeScale = 1;
-                kitchen.SetActive(false);
+                //kitchen.SetActive(false);
+                Destroy(kitchen);
             }
         }
         public void OpenPhone()
