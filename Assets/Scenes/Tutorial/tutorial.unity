@@ -3112,7 +3112,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1226789473
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3366,7 +3366,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1400166546
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3805,7 +3805,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Thanks sweetie! Just send me a tikkie when you know the price! <3
+  m_text: Thanks sweetie! Just let me know when you know the price! <3
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 919b155f989b0b34699b5b14755c7782, type: 2}
   m_sharedMaterial: {fileID: -7610391127779924517, guid: 919b155f989b0b34699b5b14755c7782,
