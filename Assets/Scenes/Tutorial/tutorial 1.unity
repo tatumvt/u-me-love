@@ -4653,50 +4653,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1456169596}
   m_CullTransparentMesh: 0
---- !u!1 &1456770756
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1456770758}
-  - component: {fileID: 1456770757}
-  m_Layer: 0
-  m_Name: calculatorObject
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1456770757
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1456770756}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed921ae8e5e005c47b01d50817230e6c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!4 &1456770758
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1456770756}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 278.28653, y: 1172.3999, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 13
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1470195858 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2081010766929671841, guid: 3b6a10b3ff6b7244caf2ae54f1983411,
@@ -7296,7 +7252,19 @@ PrefabInstance:
         type: 3}
       propertyPath: calc
       value: 
-      objectReference: {fileID: 1456770757}
+      objectReference: {fileID: 0}
+    - target: {fileID: 4196623500949314509, guid: 11c4d7fcc632e67489cc12e3223f656a,
+        type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 919b155f989b0b34699b5b14755c7782,
+        type: 2}
+    - target: {fileID: 4196623500949314509, guid: 11c4d7fcc632e67489cc12e3223f656a,
+        type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -7610391127779924517, guid: 919b155f989b0b34699b5b14755c7782,
+        type: 2}
     - target: {fileID: 4196623501011948675, guid: 11c4d7fcc632e67489cc12e3223f656a,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
