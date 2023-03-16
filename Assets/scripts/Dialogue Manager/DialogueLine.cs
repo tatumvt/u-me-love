@@ -27,8 +27,10 @@ namespace DialogueSystem
         public GameObject school;
         public GameObject kitchen;
         public GameObject picnic;
+        public bool isTutorial;
         public bool isLevelOne;
-        public bool isLevelAnswer;
+        public bool isLevelAnswerGood;
+        public bool isLevelAnswerWrong;
         public bool isLevelTwo;
         public bool isLevelTwoAnswer;
 
@@ -46,17 +48,26 @@ namespace DialogueSystem
             //level specific checks
             if (isLevelOne == true)
                 OpenPhone();
-            if (isLevelAnswer == true)
-            {
+            if (isLevelAnswerGood == true)
                 EnterCrush();
+            if (isLevelAnswerWrong == true)
                 EnterSchool();
-            }
             if (isLevelTwo == true)
                 ActivateKitchen();
             if (isLevelTwoAnswer == true)
                 StopPicnic();
+            if (isTutorial == true)
+                MarketTutorial();
         }
         #region canvas switches 
+        public void MarketTutorial()
+        {
+            if (index >= 5)
+            {
+                Time.timeScale = 1;
+                phone.SetActive(true);
+            }
+        }
         public void StopPicnic()
         {
             if (index >= 8)
