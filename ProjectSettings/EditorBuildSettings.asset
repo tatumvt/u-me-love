@@ -47,5 +47,5 @@ EditorBuildSettings:
       type: 2}
     com.unity.xr.arkit.PlayerSettings: {fileID: 11400000, guid: 652574d7db7f73c458a25f757d42cf2f,
       type: 2}
-    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: cc5f14b1193efd441af9db3bace57a69,
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 5ddfadbfd01d1814880a70ca5376ee5c,
       type: 2}
