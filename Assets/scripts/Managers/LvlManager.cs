@@ -11,8 +11,12 @@ public class LvlManager : MonoBehaviour
     private void Start()
     {
         debug1 = PlayerPrefs.GetInt("Lvl01");
-        if(debug1 == 0)
+        debug2 = PlayerPrefs.GetInt("Lvl02");
+        if (debug1 == 0 || debug1 == 2 || debug2 == 1)
+        {
             PlayerPrefs.SetInt("Lvl01", 1);
+            PlayerPrefs.SetInt("Lvl02", 0);
+        }
     }
     private void Update()
     {
@@ -25,7 +29,6 @@ public class LvlManager : MonoBehaviour
     public void LoadSceneScript(string name)
     {
         Time.timeScale = 1;
-        //bc.buttonClick();
         StartCoroutine(LoadSceneScriptIE(name));
     }
     private IEnumerator LoadSceneScriptIE(string name)
