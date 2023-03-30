@@ -10,7 +10,10 @@ public class DrawMesh : MonoBehaviour
     public GameObject parent;
 
     private Mesh mesh;
+    private List<GameObject> meshList = new List<GameObject>();
     private Vector3 lastMousePosition;
+    private bool isDrawing;
+    [SerializeField] private Material material;
 
     private void Update()
     {
@@ -18,14 +21,16 @@ public class DrawMesh : MonoBehaviour
         {
             if (UIWorldDetect.draw == false)
                 return;
+
+            mesh = new Mesh();
+            isDrawing = true;
             GameObject temp = new GameObject();
-            temp.AddComponent<MeshFilter>();
-            temp.AddComponent<MeshRenderer>();
-            temp.GetComponent<MeshRenderer>().material = this.GetComponent<MeshRenderer>().material;
-            temp.GetComponent<MeshFilter>().mesh = mesh;
+            temp.AddComponent<MeshFilter>().mesh = mesh;
+            temp.AddComponent<MeshRenderer>().material = material; 
             temp.transform.parent = parent.transform;
             // Mouse Pressed
-            mesh = new Mesh();
+           // if (mesh)
+                meshList.Add(temp.gameObject);
 
             Vector3[] vertices = new Vector3[4];
             Vector2[] uv = new Vector2[4];
@@ -54,12 +59,10 @@ public class DrawMesh : MonoBehaviour
             mesh.triangles = triangles;
             mesh.MarkDynamic();
 
-            GetComponent<MeshFilter>().mesh = mesh;
-
             lastMousePosition = UtilsClass.GetMouseWorldPosition();
         }
 
-        if (Input.GetMouseButton(0))
+        if (Input.GetMouseButton(0) && isDrawing)
         {
             if (UIWorldDetect.draw == false)
                 return;
@@ -119,11 +122,16 @@ public class DrawMesh : MonoBehaviour
                 lastMousePosition = UtilsClass.GetMouseWorldPosition();
             }    
         }
+        if (Input.GetMouseButtonUp(0))
+        {
+            isDrawing = false;
+        }
     }
 
     public void ClearNotes()
     {
-        mesh.Clear();
+        foreach (GameObject meshItem in meshList)
+        Destroy(meshItem);
     }
 
 }
