@@ -522,7 +522,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &53538049
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -643,8 +643,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.541, y: 3.117}
-  m_SizeDelta: {x: 110, y: 110}
+  m_AnchoredPosition: {x: 1.521, y: 3.1052}
+  m_SizeDelta: {x: 177.24152, y: 168.00432}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &80413612
 MonoBehaviour:
@@ -1069,7 +1069,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 1
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: -377.70312, z: -564.4934, w: -633.34375}
+  m_margin: {x: 58.375137, y: -326.99072, z: -564.4934, w: -539.88324}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -2367,8 +2367,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -375, y: 1000}
-  m_SizeDelta: {x: 190, y: 190}
+  m_AnchoredPosition: {x: -387.5, y: 1038.1}
+  m_SizeDelta: {x: 278.91724, y: 266.26395}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &245167917
 MonoBehaviour:
@@ -5302,9 +5302,9 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 645291866}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 10.644, y: 26.311966, z: 10.644}
+  m_LocalScale: {x: 11.313, y: 27.33334, z: 11.313}
   m_Children: []
   m_Father: {fileID: 1029995480}
   m_RootOrder: 0
@@ -5415,7 +5415,6 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1120983089}
-  - {fileID: 1928568094}
   m_Father: {fileID: 1029995480}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5992,7 +5991,7 @@ PrefabInstance:
     - target: {fileID: 2358729442843543113, guid: 41cbf8afa02693348b6b03099066c903,
         type: 3}
       propertyPath: sentences.Array.size
-      value: 10
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 2358729442843543113, guid: 41cbf8afa02693348b6b03099066c903,
         type: 3}
@@ -6032,52 +6031,57 @@ PrefabInstance:
     - target: {fileID: 2358729442843543113, guid: 41cbf8afa02693348b6b03099066c903,
         type: 3}
       propertyPath: sentences.Array.data[0]
-      value: It's gonna be such a beautiful day today
+      value: Mina was so sweet for helping me out to join the commision...
       objectReference: {fileID: 0}
     - target: {fileID: 2358729442843543113, guid: 41cbf8afa02693348b6b03099066c903,
         type: 3}
       propertyPath: sentences.Array.data[1]
-      value: I might get to see her during lunch
+      value: I gotta thank her.
       objectReference: {fileID: 0}
     - target: {fileID: 2358729442843543113, guid: 41cbf8afa02693348b6b03099066c903,
         type: 3}
       propertyPath: sentences.Array.data[2]
-      value: We could sit outside
+      value: But how?
       objectReference: {fileID: 0}
     - target: {fileID: 2358729442843543113, guid: 41cbf8afa02693348b6b03099066c903,
         type: 3}
       propertyPath: sentences.Array.data[3]
-      value: A little picnic!
+      value: Hmmm...
       objectReference: {fileID: 0}
     - target: {fileID: 2358729442843543113, guid: 41cbf8afa02693348b6b03099066c903,
         type: 3}
       propertyPath: sentences.Array.data[4]
-      value: I'll make her something so delicious
+      value: I remember she talked about her favorite snack yesterday
       objectReference: {fileID: 0}
     - target: {fileID: 2358729442843543113, guid: 41cbf8afa02693348b6b03099066c903,
         type: 3}
       propertyPath: sentences.Array.data[5]
-      value: She'll have to notice me!
+      value: Chocolate chip cookies...
       objectReference: {fileID: 0}
     - target: {fileID: 2358729442843543113, guid: 41cbf8afa02693348b6b03099066c903,
         type: 3}
       propertyPath: sentences.Array.data[6]
-      value: Nana has a recipe for the best cookies ever
+      value: Ohh I know! I'll make her some myself!
       objectReference: {fileID: 0}
     - target: {fileID: 2358729442843543113, guid: 41cbf8afa02693348b6b03099066c903,
         type: 3}
       propertyPath: sentences.Array.data[7]
+      value: Nana has a recipe for the best cookies ever
+      objectReference: {fileID: 0}
+    - target: {fileID: 2358729442843543113, guid: 41cbf8afa02693348b6b03099066c903,
+        type: 3}
+      propertyPath: sentences.Array.data[8]
       value: Her recipe is for 5 people though, and we're gonna be with just the
         two of us
       objectReference: {fileID: 0}
     - target: {fileID: 2358729442843543113, guid: 41cbf8afa02693348b6b03099066c903,
         type: 3}
-      propertyPath: sentences.Array.data[8]
+      propertyPath: sentences.Array.data[9]
       value: I think I got the recipe somewhere over here...
       objectReference: {fileID: 0}
     - target: {fileID: 2358729442843543113, guid: 41cbf8afa02693348b6b03099066c903,
         type: 3}
-      propertyPath: sentences.Array.data[9]
+      propertyPath: sentences.Array.data[10]
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 2358729442843543114, guid: 41cbf8afa02693348b6b03099066c903,
@@ -9372,7 +9376,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 2
   m_TargetDisplay: 0
 --- !u!224 &1029995480
 RectTransform:
@@ -10179,14 +10183,15 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 1928568094}
   m_Father: {fileID: 661890032}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -130}
-  m_SizeDelta: {x: 325, y: 100}
+  m_AnchoredPosition: {x: 16.6, y: -136.9}
+  m_SizeDelta: {x: 479.11188, y: 152.32167}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1120983090
 MonoBehaviour:
@@ -15994,14 +15999,14 @@ RectTransform:
   m_GameObject: {fileID: 1928568093}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 0}
   m_Children: []
-  m_Father: {fileID: 661890032}
-  m_RootOrder: 1
+  m_Father: {fileID: 1120983089}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -137}
+  m_AnchoredPosition: {x: -8.3, y: -5.600006}
   m_SizeDelta: {x: 400, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1928568095
@@ -16797,8 +16802,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 375, y: 1000}
-  m_SizeDelta: {x: 190, y: 190}
+  m_AnchoredPosition: {x: 400, y: 1038.1}
+  m_SizeDelta: {x: 278.91724, y: 266.26395}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1982834518
 MonoBehaviour:
