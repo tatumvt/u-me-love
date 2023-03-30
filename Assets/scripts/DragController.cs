@@ -32,6 +32,7 @@ public class DragController : MonoBehaviour, IPointerDownHandler, IBeginDragHand
             spawned = true;
         }
         //throw new System.NotImplementedException();
+        bowl.OnBeginDrag();
     }
     public void OnDrag(PointerEventData eventData)
     {
@@ -40,6 +41,8 @@ public class DragController : MonoBehaviour, IPointerDownHandler, IBeginDragHand
     public void OnEndDrag(PointerEventData eventData)
     {
         canvasGroup.blocksRaycasts = true;
+        bowl.currentGameObject = this.gameObject;
+        bowl.OnDrop();
     }
     public void OnPointerDown(PointerEventData eventData)
     {

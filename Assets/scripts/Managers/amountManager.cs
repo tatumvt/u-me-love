@@ -23,6 +23,11 @@ public class amountManager : MonoBehaviour
     {
         theScores[ingredient] = theScores[ingredient] + score;
     }
+
+    public void removeScore(int score, int ingredient)
+    {
+        theScores[ingredient] = theScores[ingredient] - score;
+    }
     private void Update()
     {
         for (int i = 0; i < amounts.Length; i++)
