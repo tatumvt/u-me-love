@@ -47,6 +47,13 @@ public class ButtonScript : MonoBehaviour
         Time.timeScale = 1;
         canvas.SetActive(true);
     }
+    public void checkClue(GameObject clue)
+    {
+        Time.timeScale = 1;
+      //  if(clue != isActiveAndEnabled)
+        clue.SetActive(true);
+    } 
+
     public void StopAlarm(GameObject phoneAlarm)
     {
         Time.timeScale = 1;
