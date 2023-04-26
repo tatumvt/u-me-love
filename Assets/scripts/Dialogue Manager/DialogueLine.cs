@@ -32,7 +32,9 @@ namespace DialogueSystem
         public bool isLevelAnswerGood;
         public bool isLevelAnswerWrong;
         public bool isLevelTwo;
-        public bool isLevelTwoAnswer;
+        public bool isLevelSix;
+        public bool isLevelSixAnswer;
+
 
         private void Start()
         {
@@ -50,8 +52,10 @@ namespace DialogueSystem
             if (isLevelAnswerWrong == true)
                 EnterSchool();
             if (isLevelTwo == true)
+                GrabPhone();
+            if (isLevelSix == true)
                 ActivateKitchen();
-            if (isLevelTwoAnswer == true)
+            if (isLevelSixAnswer == true)
                 StopPicnic();
             if (isTutorial == true)
                 MarketTutorial();
@@ -101,6 +105,14 @@ namespace DialogueSystem
         public void OpenPhone()
         {
             if (index >= 15)
+            {
+                Time.timeScale = 1;
+                phone.SetActive(true);
+            }
+        }
+        public void GrabPhone()
+        {
+            if (index >= 25)
             {
                 Time.timeScale = 1;
                 phone.SetActive(true);
