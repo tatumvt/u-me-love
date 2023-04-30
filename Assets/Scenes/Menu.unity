@@ -8187,7 +8187,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 841e64b37fa071346b9be25f5c0e13b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelToCheck: 
+  levelToCheck: Lvl03
   levelDone: 0
   done: {fileID: 145883769}
   play: {fileID: 1527687414}
@@ -8807,7 +8807,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 841e64b37fa071346b9be25f5c0e13b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelToCheck: 
+  levelToCheck: Lvl07
   levelDone: 0
   done: {fileID: 670957312}
   play: {fileID: 813607386}
@@ -11398,7 +11398,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &954569499
 RectTransform:
   m_ObjectHideFlags: 0
@@ -12714,7 +12714,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 841e64b37fa071346b9be25f5c0e13b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelToCheck: 
+  levelToCheck: Lvl06
   levelDone: 0
   done: {fileID: 1450491897}
   play: {fileID: 26014392}
@@ -12907,7 +12907,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 841e64b37fa071346b9be25f5c0e13b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelToCheck: 
+  levelToCheck: Lvl10
   levelDone: 0
   done: {fileID: 1608140173}
   play: {fileID: 2109266147}
@@ -13046,7 +13046,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 841e64b37fa071346b9be25f5c0e13b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelToCheck: 
+  levelToCheck: Lvl09
   levelDone: 0
   done: {fileID: 595682721}
   play: {fileID: 778036020}
@@ -15407,7 +15407,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 841e64b37fa071346b9be25f5c0e13b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelToCheck: 
+  levelToCheck: Lvl02
   levelDone: 0
   done: {fileID: 1204632191}
   play: {fileID: 1292928470}
@@ -17682,7 +17682,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 841e64b37fa071346b9be25f5c0e13b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelToCheck: 
+  levelToCheck: Lvl08
   levelDone: 0
   done: {fileID: 520728592}
   play: {fileID: 587817102}
@@ -18553,7 +18553,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 841e64b37fa071346b9be25f5c0e13b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelToCheck: 
+  levelToCheck: Lvl05
   levelDone: 0
   done: {fileID: 600603474}
   play: {fileID: 2115180267}
@@ -22248,7 +22248,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 841e64b37fa071346b9be25f5c0e13b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelToCheck: 
+  levelToCheck: Lvl04
   levelDone: 0
   done: {fileID: 730919010}
   play: {fileID: 1234814687}
