@@ -52,7 +52,23 @@ public class ButtonScript : MonoBehaviour
         Time.timeScale = 1;
       //  if(clue != isActiveAndEnabled)
         clue.SetActive(true);
-    } 
+    }
+    public void CircleCoupon(GameObject circle)
+    {
+        Time.timeScale = 1;
+        if (circle.activeInHierarchy)
+            circle.SetActive(false);
+        else
+            circle.SetActive(true);
+    }
+    public void CheckCoupons(GameObject selected)
+    {
+        Time.timeScale = 1;
+        if (selected.activeInHierarchy)
+            SceneManager.LoadScene(12);
+        else
+            SceneManager.LoadScene(13);
+    }
 
     public void StopAlarm(GameObject phoneAlarm)
     {
@@ -71,12 +87,6 @@ public class ButtonScript : MonoBehaviour
         Time.timeScale = 1;
         app.SetActive(false);
         messages.SetActive(false);
-    }
-    //Toggles Settings menu
-    public void SettingsToggle(GameObject settingView)
-    {
-        Time.timeScale = 1;
-        settingView.SetActive(!settingView.activeSelf);
     }
 
 }
