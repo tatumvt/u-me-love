@@ -32,6 +32,7 @@ namespace DialogueSystem
         public bool isLevelAnswerGood;
         public bool isLevelAnswerWrong;
         public bool isLevelTwo;
+        public bool isLevelFive;
         public bool isLevelSix;
         public bool isLevelSixAnswer;
 
@@ -53,6 +54,8 @@ namespace DialogueSystem
                 EnterSchool();
             if (isLevelTwo == true)
                 GrabPhone();
+            if (isLevelFive == true)
+                TakePhone();
             if (isLevelSix == true)
                 ActivateKitchen();
             if (isLevelSixAnswer == true)
@@ -113,6 +116,14 @@ namespace DialogueSystem
         public void GrabPhone()
         {
             if (index >= 25)
+            {
+                Time.timeScale = 1;
+                phone.SetActive(true);
+            }
+        }
+        public void TakePhone()
+        {
+            if (index >= 20)
             {
                 Time.timeScale = 1;
                 phone.SetActive(true);
