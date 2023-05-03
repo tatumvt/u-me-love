@@ -2423,7 +2423,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -154, y: -851}
+  m_AnchoredPosition: {x: -154, y: -772}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &187535258
@@ -9606,7 +9606,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 247, y: 114}
+  m_AnchoredPosition: {x: 367, y: 138}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &657630363
@@ -9629,10 +9629,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: How much time are you available on Monday?
+  m_text: When are you available on Monday between 2PM - 4 PM?
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 33274dde8ba06dd4c8ef340be8426ebe, type: 2}
-  m_sharedMaterial: {fileID: -6725345868795330017, guid: 33274dde8ba06dd4c8ef340be8426ebe,
+  m_fontAsset: {fileID: 11400000, guid: 6749179022abcb442901c70fec78a343, type: 2}
+  m_sharedMaterial: {fileID: -4350031367259480024, guid: 6749179022abcb442901c70fec78a343,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -9657,8 +9657,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 90.46
-  m_fontSizeBase: 90.46
+  m_fontSize: 110.96
+  m_fontSizeBase: 110.96
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -9693,7 +9693,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -505.6932, y: 0, z: 0, w: 0}
+  m_margin: {x: -709.32886, y: 0, z: 0, w: -55.822212}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -14019,8 +14019,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "> Available for min 45 mins/day\n> Creativity\n> Available every Monday
-    or Friday \n> Planning skills\n\n"
+  m_text: "> Available for min 45 mins/day\n> Creativity & Planning skills\n> Available
+    every Monday or Friday \n> We'll check your schedule after your application\n\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 33274dde8ba06dd4c8ef340be8426ebe, type: 2}
   m_sharedMaterial: {fileID: -6725345868795330017, guid: 33274dde8ba06dd4c8ef340be8426ebe,
@@ -17169,7 +17169,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 3, y: -562}
+  m_AnchoredPosition: {x: 3, y: -607}
   m_SizeDelta: {x: 376.13977, y: 143.03937}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1119681276
@@ -20783,7 +20783,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 247, y: 114}
+  m_AnchoredPosition: {x: 329, y: 105}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1323374726
@@ -20806,10 +20806,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: How much time are you available on Friday?
+  m_text: When are you available on Friday between 2PM - 4:30 PM?
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 33274dde8ba06dd4c8ef340be8426ebe, type: 2}
-  m_sharedMaterial: {fileID: -6725345868795330017, guid: 33274dde8ba06dd4c8ef340be8426ebe,
+  m_fontAsset: {fileID: 11400000, guid: 6749179022abcb442901c70fec78a343, type: 2}
+  m_sharedMaterial: {fileID: -4350031367259480024, guid: 6749179022abcb442901c70fec78a343,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -20834,8 +20834,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 90.46
-  m_fontSizeBase: 90.46
+  m_fontSize: 101.4
+  m_fontSizeBase: 101.4
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -20870,7 +20870,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -505.6932, y: 0, z: 0, w: 0}
+  m_margin: {x: -657.27637, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -20941,7 +20941,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: I'll be available for 75 mins
+  m_text: I'll be available from 2:15pm
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 919b155f989b0b34699b5b14755c7782, type: 2}
   m_sharedMaterial: {fileID: -7610391127779924517, guid: 919b155f989b0b34699b5b14755c7782,
@@ -21628,7 +21628,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 85, y: -344}
+  m_AnchoredPosition: {x: 85, y: -270}
   m_SizeDelta: {x: 510, y: 394.65576}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1375229095
@@ -27471,7 +27471,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: I have 50 mins spare time
+  m_text: I'm available from until 4pm
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 919b155f989b0b34699b5b14755c7782, type: 2}
   m_sharedMaterial: {fileID: -7610391127779924517, guid: 919b155f989b0b34699b5b14755c7782,
@@ -28687,7 +28687,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -52, y: -11}
+  m_AnchoredPosition: {x: -63, y: -11}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1876757024
@@ -28710,7 +28710,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: I have 50 mins spare time
+  m_text: I'm available that whole time
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 919b155f989b0b34699b5b14755c7782, type: 2}
   m_sharedMaterial: {fileID: -7610391127779924517, guid: 919b155f989b0b34699b5b14755c7782,
@@ -31789,7 +31789,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -57, y: 0}
+  m_AnchoredPosition: {x: -18, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2022058529
@@ -31812,7 +31812,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: I'll be available for 75 mins
+  m_text: I'll be available all day
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 919b155f989b0b34699b5b14755c7782, type: 2}
   m_sharedMaterial: {fileID: -7610391127779924517, guid: 919b155f989b0b34699b5b14755c7782,
@@ -33014,7 +33014,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -154, y: -929}
+  m_AnchoredPosition: {x: -154, y: -868}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2125488591
