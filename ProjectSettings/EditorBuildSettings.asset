@@ -39,6 +39,33 @@ EditorBuildSettings:
     path: Assets/Scenes/lvl02/lvl02WRONG.unity
     guid: b4d86a6350a287f488fcae563a169734
   - enabled: 1
+    path: Assets/Scenes/lvl03/lvl03.unity
+    guid: a726c73b7fbbcf64f9246e5556e509a1
+  - enabled: 1
+    path: Assets/Scenes/lvl03/lvl03RIGHT.unity
+    guid: e6a169d85606f6a479779300d76632e8
+  - enabled: 1
+    path: Assets/Scenes/lvl03/lvl03WRONG.unity
+    guid: 7a22a468faf19be4a913128e9b8de025
+  - enabled: 1
+    path: Assets/Scenes/lvl04/lvl04.unity
+    guid: 11101b907e7b3404aa3bb7779ab0a21e
+  - enabled: 1
+    path: Assets/Scenes/lvl04/lvl04RIGHT.unity
+    guid: 104bb9b33092be24a93c46f724b01e2d
+  - enabled: 1
+    path: Assets/Scenes/lvl04/lvl04WRONG.unity
+    guid: 284b9d0875e86ed42941602304ab9c76
+  - enabled: 1
+    path: Assets/Scenes/lvl05/lvl05.unity
+    guid: e0dcbddc328073c4e9b7b4065bc03ff3
+  - enabled: 1
+    path: Assets/Scenes/lvl05/lvl05RIGHT.unity
+    guid: 203fe7fdc6915ee408dba2bc60301034
+  - enabled: 1
+    path: Assets/Scenes/lvl05/lvl05WRONG.unity
+    guid: 47229173198e566408188e9e1f59fa38
+  - enabled: 1
     path: Assets/Scenes/lvl06/lvl06.unity
     guid: 05069c9f307e53444a5b45a0e78145ce
   - enabled: 1
