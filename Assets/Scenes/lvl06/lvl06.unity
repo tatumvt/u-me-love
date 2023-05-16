@@ -6011,7 +6011,7 @@ PrefabInstance:
     - target: {fileID: 2358729442843543113, guid: 41cbf8afa02693348b6b03099066c903,
         type: 3}
       propertyPath: isLevelTwo
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2358729442843543113, guid: 41cbf8afa02693348b6b03099066c903,
         type: 3}
@@ -6083,6 +6083,11 @@ PrefabInstance:
         type: 3}
       propertyPath: sentences.Array.data[10]
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2358729442843543113, guid: 41cbf8afa02693348b6b03099066c903,
+        type: 3}
+      propertyPath: isLevelSix
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2358729442843543114, guid: 41cbf8afa02693348b6b03099066c903,
         type: 3}
