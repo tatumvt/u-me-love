@@ -48,7 +48,6 @@ EditorBuildSettings:
     path: Assets/Scenes/lvl03/lvl03WRONG.unity
     guid: 7a22a468faf19be4a913128e9b8de025
   - enabled: 1
-<<<<<<< Updated upstream
     path: Assets/Scenes/lvl04/lvl04.unity
     guid: 11101b907e7b3404aa3bb7779ab0a21e
   - enabled: 1
@@ -58,8 +57,6 @@ EditorBuildSettings:
     path: Assets/Scenes/lvl04/lvl04WRONG.unity
     guid: 284b9d0875e86ed42941602304ab9c76
   - enabled: 1
-=======
->>>>>>> Stashed changes
     path: Assets/Scenes/lvl05/lvl05.unity
     guid: e0dcbddc328073c4e9b7b4065bc03ff3
   - enabled: 1
@@ -77,6 +74,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/lvl06/lvl06WRONG.unity
     guid: 214686ee64f581e468aa2bd245d5f8fa
+  - enabled: 1
+    path: Assets/Scenes/lvl07/lvl07.unity
+    guid: c8eddbee8d472eb40b61b2a5d05f2825
+  - enabled: 1
+    path: Assets/Scenes/lvl07/lvl07RIGHT.unity
+    guid: b670ca1625bdc3f469c25b364af5779d
+  - enabled: 1
+    path: Assets/Scenes/lvl07/lvl07WRONG.unity
+    guid: 81461f01bc0504b499bb02e99d3135ea
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 941c2efc4ad5dd6499778637e052df72,
       type: 2}
