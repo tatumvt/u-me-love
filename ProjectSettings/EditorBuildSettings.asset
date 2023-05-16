@@ -48,6 +48,7 @@ EditorBuildSettings:
     path: Assets/Scenes/lvl03/lvl03WRONG.unity
     guid: 7a22a468faf19be4a913128e9b8de025
   - enabled: 1
+<<<<<<< Updated upstream
     path: Assets/Scenes/lvl04/lvl04.unity
     guid: 11101b907e7b3404aa3bb7779ab0a21e
   - enabled: 1
@@ -57,6 +58,8 @@ EditorBuildSettings:
     path: Assets/Scenes/lvl04/lvl04WRONG.unity
     guid: 284b9d0875e86ed42941602304ab9c76
   - enabled: 1
+=======
+>>>>>>> Stashed changes
     path: Assets/Scenes/lvl05/lvl05.unity
     guid: e0dcbddc328073c4e9b7b4065bc03ff3
   - enabled: 1
