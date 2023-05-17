@@ -46,6 +46,7 @@ public class ButtonScript : MonoBehaviour
     {
         Time.timeScale = 1;
         canvas.SetActive(true);
+        Debug.Log("TEST");
     }
     public void checkClue(GameObject clue)
     {

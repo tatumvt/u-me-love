@@ -19,8 +19,8 @@ public class CheckLevelDone : MonoBehaviour
         {
             play.gameObject.SetActive(true);
             done.gameObject.SetActive(false);
-            locked.gameObject.SetActive(false);
-            this.GetComponent<Button>().enabled = true;
+            if(locked) locked.gameObject.SetActive(false);
+           
         }
         //Done
         else if (PlayerPrefs.GetInt(levelToCheck) == 2)
@@ -28,7 +28,7 @@ public class CheckLevelDone : MonoBehaviour
             play.gameObject.SetActive(false);
             done.gameObject.SetActive(true);
             locked.gameObject.SetActive(false);
-            this.GetComponent<Button>().enabled = false;
+           
         }
         //Inactive
         else if (PlayerPrefs.GetInt(levelToCheck) == 0)
@@ -36,7 +36,7 @@ public class CheckLevelDone : MonoBehaviour
             play.gameObject.SetActive(false);
             done.gameObject.SetActive(false);
             locked.gameObject.SetActive(true);
-            this.GetComponent<Button>().enabled = false;
+           
         }
     }
 }
