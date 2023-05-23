@@ -9916,8 +9916,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Robin
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 33274dde8ba06dd4c8ef340be8426ebe, type: 2}
-  m_sharedMaterial: {fileID: -6725345868795330017, guid: 33274dde8ba06dd4c8ef340be8426ebe,
+  m_fontAsset: {fileID: 11400000, guid: 919b155f989b0b34699b5b14755c7782, type: 2}
+  m_sharedMaterial: {fileID: -7610391127779924517, guid: 919b155f989b0b34699b5b14755c7782,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -9942,8 +9942,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 42
-  m_fontSizeBase: 42
+  m_fontSize: 31
+  m_fontSizeBase: 31
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -10315,10 +10315,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 400-450, and we gotta remember that it should be able to fit 600 people
+  m_text: 450-500, and we gotta remember that it should be able to fit 500 people
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 33274dde8ba06dd4c8ef340be8426ebe, type: 2}
-  m_sharedMaterial: {fileID: -6725345868795330017, guid: 33274dde8ba06dd4c8ef340be8426ebe,
+  m_fontAsset: {fileID: 11400000, guid: 919b155f989b0b34699b5b14755c7782, type: 2}
+  m_sharedMaterial: {fileID: -7610391127779924517, guid: 919b155f989b0b34699b5b14755c7782,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -10343,8 +10343,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 42
-  m_fontSizeBase: 42
+  m_fontSize: 31
+  m_fontSizeBase: 31
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
