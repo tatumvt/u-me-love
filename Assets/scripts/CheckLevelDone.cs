@@ -12,18 +12,18 @@ public class CheckLevelDone : MonoBehaviour
     public GameObject play;
     public GameObject locked;
 
-    void Update()
+    void Start()
     {
         //Active
         if (PlayerPrefs.GetInt(levelToCheck) == 1)
         {
             play.gameObject.SetActive(true);
             done.gameObject.SetActive(false);
-            if(locked) locked.gameObject.SetActive(false);
+            if(locked) 
+                locked.gameObject.SetActive(false);
            
         }
         //Done
-        else if (PlayerPrefs.GetInt(levelToCheck) == 2)
         {
             play.gameObject.SetActive(false);
             done.gameObject.SetActive(true);
@@ -38,5 +38,7 @@ public class CheckLevelDone : MonoBehaviour
             locked.gameObject.SetActive(true);
            
         }
+        Debug.Log(PlayerPrefs.GetInt(levelToCheck));
+
     }
 }

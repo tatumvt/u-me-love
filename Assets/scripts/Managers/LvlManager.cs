@@ -8,23 +8,6 @@ public class LvlManager : MonoBehaviour
     public int debug1;
     public int debug2;
 
-    private void Start()
-    {
-        debug1 = PlayerPrefs.GetInt("Lvl01");
-        debug2 = PlayerPrefs.GetInt("Lvl02");
-        if (debug1 == 0 || debug1 == 2 || debug2 == 1)
-        {
-            PlayerPrefs.SetInt("Lvl01", 1);
-            PlayerPrefs.SetInt("Lvl02", 0);
-        }
-    }
-    private void Update()
-    {
-        debug1 = PlayerPrefs.GetInt("Lvl01");
-        debug2 = PlayerPrefs.GetInt("Lvl02");
-        Debug.Log(debug1);
-    }
-
     //Actual load on play button
     public void LoadSceneScript(string name)
     {
