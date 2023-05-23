@@ -24,6 +24,7 @@ public class CheckLevelDone : MonoBehaviour
            
         }
         //Done
+        else if (PlayerPrefs.GetInt(levelToCheck) == 2)
         {
             play.gameObject.SetActive(false);
             done.gameObject.SetActive(true);
