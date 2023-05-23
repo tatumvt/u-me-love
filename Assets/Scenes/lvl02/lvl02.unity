@@ -3932,12 +3932,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 2081010765698588211}
   m_PrefabAsset: {fileID: 0}
---- !u!82 &679154013 stripped
-AudioSource:
-  m_CorrespondingSourceObject: {fileID: 2081010766929671843, guid: 3b6a10b3ff6b7244caf2ae54f1983411,
-    type: 3}
-  m_PrefabInstance: {fileID: 2081010765698588211}
-  m_PrefabAsset: {fileID: 0}
 --- !u!82 &679154018
 AudioSource:
   m_ObjectHideFlags: 0
@@ -11307,7 +11301,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   phoneAlarm: {fileID: 0}
   phone: {fileID: 301554712}
-  alarm: {fileID: 679154013}
+  alarm: {fileID: 0}
   app: {fileID: 1400166545}
 --- !u!4 &1728563285
 Transform:
@@ -13180,7 +13174,7 @@ PrefabInstance:
         type: 3}
       propertyPath: alarm
       value: 
-      objectReference: {fileID: 679154013}
+      objectReference: {fileID: 0}
     - target: {fileID: 2081010766929671841, guid: 3b6a10b3ff6b7244caf2ae54f1983411,
         type: 3}
       propertyPath: typing
@@ -13216,7 +13210,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: AudioManager
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2081010766929671843, guid: 3b6a10b3ff6b7244caf2ae54f1983411, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 3b6a10b3ff6b7244caf2ae54f1983411, type: 3}
 --- !u!1001 &2358729442542436112
 PrefabInstance:
