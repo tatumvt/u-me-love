@@ -40,9 +40,9 @@ public class amountManager : MonoBehaviour
         if (theScores != null)
         {
             if (theScores[0] == 11 && theScores[1] == 5 && theScores[2] == 6 && theScores[3] == 3 && theScores[4] == 0)
-                LoadSceneScript("lvl02RIGHT");
+                LoadSceneScript("lvl06RIGHT");
             else
-                LoadSceneScript("lvl02WRONG");
+                LoadSceneScript("lvl06WRONG");
         }
     }
     public void LoadSceneScript(string name)
