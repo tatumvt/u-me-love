@@ -40,6 +40,5 @@ public class CheckLevelDone : MonoBehaviour
            
         }
         Debug.Log(PlayerPrefs.GetInt(levelToCheck));
-
     }
 }
