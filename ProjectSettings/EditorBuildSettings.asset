@@ -101,6 +101,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/lvl09/lvl09WRONG.unity
     guid: dec818ad9766ddf4d813a7a668f164ae
+  - enabled: 1
+    path: Assets/Scenes/lvl10/lvl10Part1.unity
+    guid: 5e9a8e5e358afd646bda534060f18aeb
+  - enabled: 1
+    path: Assets/Scenes/lvl10/lvl10Part2.unity
+    guid: 429e4abbf3acffe42b299b374a03ba0b
+  - enabled: 1
+    path: Assets/Scenes/lvl10/lvl10RIGHT.unity
+    guid: 03d0d5a8b2f61e44ca9867049e66e0cb
+  - enabled: 1
+    path: Assets/Scenes/lvl10/lvl10WRONG.unity
+    guid: 053c014e689d1de4da9045a2f2a4ae61
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 941c2efc4ad5dd6499778637e052df72,
       type: 2}
