@@ -39,7 +39,7 @@ public class answerBlockTimer : MonoBehaviour
     private IEnumerator IEWaitForWifi()
     {
         Time.timeScale = 1;
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(1f);
         popup.SetActive(true);
     }
 
