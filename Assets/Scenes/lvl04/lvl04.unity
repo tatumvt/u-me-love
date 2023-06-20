@@ -10945,7 +10945,7 @@ PrefabInstance:
     - target: {fileID: 2358729442843543113, guid: 41cbf8afa02693348b6b03099066c903,
         type: 3}
       propertyPath: sentences.Array.data[2]
-      value: Stupid busses always being delayed...
+      value: Stupid buses always being delayed...
       objectReference: {fileID: 0}
     - target: {fileID: 2358729442843543113, guid: 41cbf8afa02693348b6b03099066c903,
         type: 3}

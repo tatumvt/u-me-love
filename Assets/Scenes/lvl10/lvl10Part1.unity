@@ -16521,9 +16521,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   btn: {fileID: 1312430065}
-  popup: {fileID: 5709209}
-  map: {fileID: 2109680049}
-  isLvlTen: 1
+  popup: {fileID: 0}
+  map: {fileID: 0}
+  isLvlTen: 0
+  isTutorial: 0
 --- !u!1 &1730134811
 GameObject:
   m_ObjectHideFlags: 0
@@ -20123,6 +20124,7 @@ MonoBehaviour:
   popup: {fileID: 5709209}
   map: {fileID: 2109680049}
   isLvlTen: 1
+  isTutorial: 0
 --- !u!1 &2113962100
 GameObject:
   m_ObjectHideFlags: 0

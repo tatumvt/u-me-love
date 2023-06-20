@@ -6788,6 +6788,7 @@ MonoBehaviour:
   popup: {fileID: 0}
   map: {fileID: 0}
   isLvlTen: 0
+  isTutorial: 1
 --- !u!1 &1767337584
 GameObject:
   m_ObjectHideFlags: 0

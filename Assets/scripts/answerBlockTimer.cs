@@ -8,6 +8,7 @@ public class answerBlockTimer : MonoBehaviour
     public GameObject popup;
     public Canvas map;
     public bool isLvlTen;
+    public bool isTutorial;
 
     // Update is called once per frame
     void Start()
@@ -18,6 +19,8 @@ public class answerBlockTimer : MonoBehaviour
     {
         if (isLvlTen && map)
             WaitForWifi();
+        if (isTutorial)
+            WaitForWifi();
     }
     public void WaitForAnswer()
     {
@@ -27,7 +30,7 @@ public class answerBlockTimer : MonoBehaviour
     private IEnumerator IEWaitForAnswer()
     {
         Time.timeScale = 1;
-        yield return new WaitForSeconds(12f);
+        yield return new WaitForSeconds(29f);
          btn.SetActive(true);
     }
 
@@ -43,5 +46,16 @@ public class answerBlockTimer : MonoBehaviour
         popup.SetActive(true);
     }
 
+    public void WaitForAnswerTut()
+    {
+        Time.timeScale = 1;
+        StartCoroutine(IEWaitForAnswerTut());
+    }
+    private IEnumerator IEWaitForAnswerTut()
+    {
+        Time.timeScale = 1;
+        yield return new WaitForSeconds(8f);
+        btn.SetActive(true);
+    }
 
 }
