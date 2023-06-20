@@ -1216,12 +1216,12 @@ PrefabInstance:
     - target: {fileID: 7158778631862189283, guid: 79fc8d3257ca466409b362ebb4e66289,
         type: 3}
       propertyPath: m_Colors.m_PressedColor.b
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7158778631862189283, guid: 79fc8d3257ca466409b362ebb4e66289,
         type: 3}
       propertyPath: m_Colors.m_PressedColor.g
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7158778631862189283, guid: 79fc8d3257ca466409b362ebb4e66289,
         type: 3}
