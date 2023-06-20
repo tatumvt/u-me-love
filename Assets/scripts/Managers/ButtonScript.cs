@@ -9,6 +9,7 @@ public class ButtonScript : MonoBehaviour
     public GameObject phoneAlarm;
     public GameObject phone;
     public AudioSource alarm;
+    public AudioSource music;
     public GameObject app;
 
     [Header("Buttons")]
@@ -76,6 +77,8 @@ public class ButtonScript : MonoBehaviour
         Time.timeScale = 1;
         alarm.Stop();
         Destroy(GameObject.Find("phoneAlarm"));
+        music.Play();
+
     }
     public void BackToHome(GameObject app)
     {

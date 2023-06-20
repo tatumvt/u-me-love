@@ -20,10 +20,12 @@ namespace DialogueSystem
 
         [Header("Sounds")]
         public AudioManager am;
+        public AudioSource pic;
 
         [Header("Canvas")]
         public GameObject phone;
         public GameObject crush;
+        public GameObject picture;
         public GameObject school;
         public GameObject kitchen;
         public GameObject picnic;
@@ -35,6 +37,7 @@ namespace DialogueSystem
         public bool isLevelFive;
         public bool isLevelSix;
         public bool isLevelSixAnswer;
+        public bool isLevelThreeGood;
 
 
         private void Start()
@@ -62,6 +65,8 @@ namespace DialogueSystem
                 StopPicnic();
             if (isTutorial == true)
                 MarketTutorial();
+            if (isLevelThreeGood == true)
+                TakePicture();
         }
         #region canvas switches 
         public void MarketTutorial()
@@ -86,6 +91,15 @@ namespace DialogueSystem
             {
                 Time.timeScale = 1;
                 crush.SetActive(true);
+            }
+        }
+        public void TakePicture()
+        {
+            if (index >= 5)
+            {
+                Time.timeScale = 1;
+                picture.SetActive(true);
+                pic.Play();
             }
         }
         public void EnterSchool()
