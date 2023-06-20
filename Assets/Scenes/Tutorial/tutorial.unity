@@ -2399,7 +2399,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1728563284}
         m_TargetAssemblyTypeName: ButtonScript, Assembly-CSharp
-        m_MethodName: StopAlarm
+        m_MethodName: BackToHome
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 1017410063}
@@ -4412,6 +4412,7 @@ MonoBehaviour:
   phoneAlarm: {fileID: 1017410063}
   phone: {fileID: 0}
   alarm: {fileID: 679154013}
+  music: {fileID: 0}
   app: {fileID: 1400166545}
 --- !u!4 &1728563285
 Transform:

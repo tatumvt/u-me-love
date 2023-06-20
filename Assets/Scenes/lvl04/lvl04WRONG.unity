@@ -799,7 +799,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 2715951b43c75cc4da9c3717896dab79, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.79
+  m_Volume: 0.247
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -2129,6 +2129,7 @@ MonoBehaviour:
   phoneAlarm: {fileID: 0}
   phone: {fileID: 0}
   alarm: {fileID: 0}
+  music: {fileID: 0}
   app: {fileID: 0}
 --- !u!4 &1728563285
 Transform:
@@ -2436,13 +2437,13 @@ PrefabInstance:
     - target: {fileID: 2081010766929671843, guid: 3b6a10b3ff6b7244caf2ae54f1983411,
         type: 3}
       propertyPath: m_Volume
-      value: 0.194
+      value: 0.049
       objectReference: {fileID: 0}
     - target: {fileID: 2081010766929671843, guid: 3b6a10b3ff6b7244caf2ae54f1983411,
         type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 11e09af0dbc4540438552f32f2f69a57, type: 3}
+      objectReference: {fileID: 8300000, guid: 2ee54b188dbe3ce448ffa278e3497fdb, type: 3}
     - target: {fileID: 2081010766929671843, guid: 3b6a10b3ff6b7244caf2ae54f1983411,
         type: 3}
       propertyPath: m_PlayOnAwake
