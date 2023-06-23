@@ -30,7 +30,7 @@ public class answerBlockTimer : MonoBehaviour
     private IEnumerator IEWaitForAnswer()
     {
         Time.timeScale = 1;
-        yield return new WaitForSeconds(29f);
+        yield return new WaitForSeconds(90f);
          btn.SetActive(true);
     }
 
