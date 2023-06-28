@@ -4386,7 +4386,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 74.000015, y: -165.00005}
+  m_AnchoredPosition: {x: 74.000015, y: -179}
   m_SizeDelta: {x: 550, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &238757051
@@ -4804,7 +4804,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 74.000015, y: -595.00006}
+  m_AnchoredPosition: {x: 74.000015, y: -612}
   m_SizeDelta: {x: 550, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &247584787
@@ -7031,7 +7031,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 74.000015, y: -380.00003}
+  m_AnchoredPosition: {x: 74.000015, y: -389}
   m_SizeDelta: {x: 550, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &420111452
@@ -15506,7 +15506,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 134f93c58bae60f4e8b710ecd920a6dc, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 51dc0f94c83efac418f25ec8b3bd236a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -19659,7 +19659,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 134f93c58bae60f4e8b710ecd920a6dc, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a90a944f8a7745044ba71639d87f5e89, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -24183,7 +24183,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 74.000015, y: 49.999958}
+  m_AnchoredPosition: {x: 74.000015, y: 38}
   m_SizeDelta: {x: 550, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1646351491
@@ -25581,6 +25581,7 @@ MonoBehaviour:
   popup: {fileID: 0}
   map: {fileID: 0}
   isLvlTen: 0
+  isTutorial: 0
 --- !u!1 &1729314318
 GameObject:
   m_ObjectHideFlags: 0
