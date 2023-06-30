@@ -121,7 +121,7 @@ namespace DialogueSystem
         }
         public void OpenPhone()
         {
-            if (index >= 15)
+            if (index >= 14)
             {
                 Time.timeScale = 1;
                 phone.SetActive(true);
