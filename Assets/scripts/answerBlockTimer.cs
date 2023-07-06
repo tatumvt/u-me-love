@@ -20,7 +20,7 @@ public class answerBlockTimer : MonoBehaviour
         if (isLvlTen && map)
             WaitForWifi();
         if (isTutorial)
-            WaitForWifi();
+            WaitForAnswerTut();
     }
     public void WaitForAnswer()
     {
@@ -54,7 +54,7 @@ public class answerBlockTimer : MonoBehaviour
     private IEnumerator IEWaitForAnswerTut()
     {
         Time.timeScale = 1;
-        yield return new WaitForSeconds(8f);
+        yield return new WaitForSeconds(20f);
         btn.SetActive(true);
     }
 
